@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { useNormalTimer } from "./hooks/normalTimer";
 import { useRepeatTimer } from "./hooks/repeatTimer";
-import { useNormalProgressAnimation } from "./useNormalProgressAnimation";
-import { useProgressAnimation } from "./useProgressAnimation"; 
+import { useNormalProgressAnimation } from "./hooks/useNormalProgressAnimation";
+import { useProgressAnimation } from "./hooks/useProgressAnimation"; 
 import { formatTime } from "./utils/timeUtils";
 
 // ----------------------------------------------------
